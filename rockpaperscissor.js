@@ -1,9 +1,9 @@
 const btns = document.querySelectorAll('button');
 const results = document.getElementById('container');
-const pScore= document.getElementById('playerScore');
-const cScore= document.getElementById('compScore');
-const tieGames= document.getElementById('ties');
-const startGame= document.getElementById('begin');
+const pScore = document.getElementById('playerScore');
+const cScore = document.getElementById('compScore');
+const tieGames = document.getElementById('ties');
+const startGame = document.getElementById('begin');
 
 
 
@@ -103,7 +103,6 @@ function reset(){
     playerScore = 0;
     computerScore = 0;
     tie = 0;
-    startGame.innerHTML = "New Game";
     scoreResult();
 
     btns.forEach((button) =>{
