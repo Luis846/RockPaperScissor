@@ -86,8 +86,8 @@ function checkstats() {
 function gameOver() {
     const start = document.querySelector('#start');
     const resetButton = document.createElement('BUTTON');
-    const butText = document.createTextNode("Reset Game");
-    resetButton.appendChild(butText);
+    const buttonVal = document.createTextNode("Reset Game");
+    resetButton.appendChild(buttonVal);
     start.appendChild(resetButton);
 
     resetButton.addEventListener('click', function() {
